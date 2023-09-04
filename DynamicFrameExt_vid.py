@@ -4,7 +4,7 @@ import pandas as pd
 import cv2
 import pyautogui # https://youtu.be/qIJpBz6R2Uw
 
-video_cap = cv2.VideoCapture('Video-region-specific-RGB-value-extraction/Color Reference.mp4')
+video_cap = cv2.VideoCapture('/Users/chenshu/Documents/Research/Terasaki Research/Mechenochromic (Zhu)/Video-region-specific-RGB-value-extraction/Color Reference w: subject.mp4')
 ret, first_frame = video_cap.read()
 if ret:
     points = []
